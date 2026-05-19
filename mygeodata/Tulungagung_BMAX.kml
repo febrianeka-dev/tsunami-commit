@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"
+     xmlns:gx="http://www.google.com/kml/ext/2.2">
+  <Document>
+    <name>MOST Model Output: Tulungagung_B Mw: 9.1</name>
+    <open>1</open>
+    <description>
+           <![CDATA[
+               <b>MOST Inundation simulation for Tulungagung_B</b>
+               <p>Information about the Community Model Interface for Tsunamis:<br>
+             http://nctr.pmel.noaa.gov/ComMIT<br></p>
+<p>Event: 02 Jun 1994 18:17:34 (UTC)  Mw: 7.8 Ep: 10.477 S, 112.835 E "Indonesia"</p>
+<p>Source fault magnitude (Mw): 9.1</p>
+           ]]>
+MOST Inundation simulation for Tulungagung_B
+    </description>
+     <LookAt>
+       <longitude>112.6410355</longitude>
+       <latitude>-8.988692050000001</latitude>
+       <range>700000</range>
+     </LookAt>
+      <Style id="transGreen">
+        <LineStyle>
+          <color>cf00ff00</color>
+          <width>4</width>
+        </LineStyle>
+      </Style>
+      <Style id="transYellow">
+        <LineStyle>
+          <color>cf00ffff</color>
+          <width>4</width>
+        </LineStyle>
+      </Style>
+      <Style id="transRed">
+        <LineStyle>
+          <color>cf0000ff</color>
+          <width>4</width>
+        </LineStyle>
+      </Style>
+      <Style id="fault">
+        <LineStyle>
+          <color>cfffffcc</color>
+          <width>4</width>
+        </LineStyle>
+        <PolyStyle>
+          <color>ff00ff00</color>
+        </PolyStyle>
+      </Style>
+    <Folder>
+      <name>MOST Grid Extents</name>
+      <open>0</open>
+      <visibility>0</visibility>
+      <description>MOST nested grids</description>
+      <Placemark>
+        <name>Tulungagung_B A-Grid Outline</name>
+        <visibility>0</visibility>
+        <description>Tulungagung_B A-Grid Outline</description>
+        <styleUrl>#transGreen</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>relative</altitudeMode>
+          <coordinates> 110.9160355,-9.82619205,140.0
+               114.3660355,-9.82619205,140.0
+               114.3660355,-8.15119205,140.0
+               110.9160355,-8.15119205,140.0
+               110.9160355,-9.82619205,140.0 </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Tulungagung_B B-Grid Outline</name>
+        <visibility>0</visibility>
+        <description>Tulungagung_B B-Grid Outline</description>
+        <styleUrl>#transYellow</styleUrl>
+        <LineString>
+          <tessellate>0</tessellate>
+          <altitudeMode>relative</altitudeMode>
+          <coordinates> 111.61580289,-9.66147905,140.0
+               112.59580289,-9.66147905,140.0
+               112.59580289,-8.18647905,140.0
+               111.61580289,-8.18647905,140.0
+               111.61580289,-9.66147905,140.0 </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Tulungagung_B C-Grid Outline</name>
+        <visibility>0</visibility>
+        <description>Tulungagung_B C-Grid Outline</description>
+        <styleUrl>#transRed</styleUrl>
+        <LineString>
+          <tessellate>0</tessellate>
+          <altitudeMode>relative</altitudeMode>
+          <coordinates> 111.69284871,-8.61601649,140.0
+               112.23451537,-8.61601649,140.0
+               112.23451537,-8.23434982,140.0
+               111.69284871,-8.23434982,140.0
+               111.69284871,-8.61601649,140.0 </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Fault Planes</name>
+      <open>0</open>
+      <visibility>0</visibility>
+      <description>Fault Planes used to force MOST model</description>
+      <Placemark>
+        <name>Fault Plane: io45b</name>
+        <description>
+           <![CDATA[
+               <h1>io45b <b>Alpha: 83.531</b></h1>
+               <p>Lon: 111.1451<br>
+               Lat: -10.0825<br>
+               Strike: 279.69<br>
+               Slip: 1.0<br>
+               Dip: 12.0<br>
+               Depth: 5.0<br>
+               Length: 100.0<br>
+               Width: 50.0<br>
+               Rake: 90.0<br></p>
+           ]]>
+        </description>
+        <styleUrl>#fault</styleUrl>
+        <Polygon>
+          <tessellate>1</tessellate>
+          <altitudeMode>relativeToGround</altitudeMode>
+          <outerBoundaryIs>
+            <LinearRing>
+            <coordinates> 111.59529767661344,-10.158185660007103,1000
+               110.69490232338656,-10.006814339992896,1000
+               110.61970934873233,-10.44037350765828,1000
+               111.52010470195921,-10.591744827672487,1000
+               111.59529767661344,-10.158185660007103,1000 </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Fault Plane: io46b</name>
+        <description>
+           <![CDATA[
+               <h1>io46b <b>Alpha: 83.531</b></h1>
+               <p>Lon: 112.0394<br>
+               Lat: -10.2265<br>
+               Strike: 278.93<br>
+               Slip: 1.0<br>
+               Dip: 12.0<br>
+               Depth: 5.0<br>
+               Length: 100.0<br>
+               Width: 50.0<br>
+               Rake: 90.0<br></p>
+           ]]>
+        </description>
+        <styleUrl>#fault</styleUrl>
+        <Polygon>
+          <tessellate>1</tessellate>
+          <altitudeMode>relativeToGround</altitudeMode>
+          <outerBoundaryIs>
+            <LinearRing>
+            <coordinates> 112.49078086478703,-10.296299748030272,1000
+               111.58801913521297,-10.156700251969728,1000
+               111.5186425346376,-10.591203243952082,1000
+               112.42140426421166,-10.730802740012628,1000
+               112.49078086478703,-10.296299748030272,1000 </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Fault Plane: io47b</name>
+        <description>
+           <![CDATA[
+               <h1>io47b <b>Alpha: 83.531</b></h1>
+               <p>Lon: 112.9476<br>
+               Lat: -10.3754<br>
+               Strike: 280.01<br>
+               Slip: 1.0<br>
+               Dip: 12.0<br>
+               Depth: 5.0<br>
+               Length: 100.0<br>
+               Width: 50.0<br>
+               Rake: 90.0<br></p>
+           ]]>
+        </description>
+        <styleUrl>#fault</styleUrl>
+        <Polygon>
+          <tessellate>1</tessellate>
+          <altitudeMode>relativeToGround</altitudeMode>
+          <outerBoundaryIs>
+            <LinearRing>
+            <coordinates> 113.3977764036874,-10.453560014568613,1000
+               112.49742359631259,-10.29723998543139,1000
+               112.41970070982947,-10.730378922022394,1000
+               113.32005351720429,-10.886698951159618,1000
+               113.3977764036874,-10.453560014568613,1000 </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>MOST Model Output</name>
+      <open>1</open>
+      <visibility>1</visibility>
+      <description>MOST Model Output</description>
+    <Folder>
+      <name>Model Extrema</name>
+      <open>0</open>
+      <visibility>1</visibility>
+      <description>Model Extrema: all Grids</description>
+       <LookAt>
+         <longitude>111.96368204000001</longitude>
+         <latitude>-8.425183155</latitude>
+         <range>15000</range>
+       </LookAt>
+      <Folder>
+        <name>A-Grid Extrema</name>
+        <open>0</open>
+        <visibility>0</visibility>
+        <description>MOST Model Output</description>
+        <GroundOverlay>
+          <name>A-Grid Maximum Wave</name>
+        <visibility>0</visibility>
+          <description>A-Grid Maximum Wave Amplitude [cm]</description>
+          <color>aaffffff</color>
+          <Icon>
+            <href>images/maxWaveA.png</href>
+          </Icon>
+          <gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+          <LatLonBox>
+            <north>-8.15119205</north>
+            <south>-9.82619205</south>
+            <east>110.9160355</east>
+            <west>114.3660355</west>
+            <rotation>0.0</rotation>
+          </LatLonBox>
+        </GroundOverlay>
+        <GroundOverlay>
+          <name>Maximum Wave Colorbar</name>
+        <visibility>0</visibility>
+          <description>Colorbar: Max Wave Amplitude [cm]</description>
+          <color>ffffffff</color>
+          <Icon>
+            <href>images/maxWaveColorbarA.png</href>
+          </Icon>
+          <gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+          <LatLonBox>
+            <north>-8.15119205</north>
+            <south>-9.82619205</south>
+            <east>109.983982684362</east>
+            <west>110.19383138004794</west>
+            <rotation>0.0</rotation>
+          </LatLonBox>
+        </GroundOverlay>
+      </Folder>
+      <Folder>
+        <name>B-Grid Extrema</name>
+        <open>0</open>
+        <visibility>0</visibility>
+        <description>MOST Model Output</description>
+        <GroundOverlay>
+          <name>B-Grid Maximum Wave</name>
+        <visibility>0</visibility>
+          <description>B-Grid Maximum Wave Amplitude [cm]</description>
+          <color>aaffffff</color>
+          <Icon>
+            <href>images/maxWaveB.png</href>
+          </Icon>
+          <gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+          <LatLonBox>
+            <north>-8.18647905</north>
+            <south>-9.66147905</south>
+            <east>111.61580289</east>
+            <west>112.59580289</west>
+            <rotation>0.0</rotation>
+          </LatLonBox>
+        </GroundOverlay>
+        <GroundOverlay>
+          <name>Maximum Wave Colorbar</name>
+        <visibility>0</visibility>
+          <description>Colorbar: Max Wave Amplitude [cm]</description>
+          <color>ffffffff</color>
+          <Icon>
+            <href>images/maxWaveColorbarB.png</href>
+          </Icon>
+          <gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+          <LatLonBox>
+            <north>-8.18647905</north>
+            <south>-9.66147905</south>
+            <east>110.06797975247576</east>
+            <west>110.23007988031519</west>
+            <rotation>0.0</rotation>
+          </LatLonBox>
+        </GroundOverlay>
+      </Folder>
+      <Folder>
+        <name>C-Grid Extrema</name>
+        <open>0</open>
+        <visibility>1</visibility>
+        <description>MOST Model Output</description>
+        <GroundOverlay>
+          <name>C-Grid Maximum Wave</name>
+        <visibility>1</visibility>
+          <description>C-Grid Maximum Wave Amplitude [cm]</description>
+          <color>aaffffff</color>
+          <Icon>
+            <href>images/maxWaveC.png</href>
+          </Icon>
+          <gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+          <LatLonBox>
+            <north>-8.23434982</north>
+            <south>-8.61601649</south>
+            <east>111.69284871</east>
+            <west>112.23451537</west>
+            <rotation>0.0</rotation>
+          </LatLonBox>
+        </GroundOverlay>
+        <GroundOverlay>
+          <name>Maximum Wave Colorbar</name>
+        <visibility>1</visibility>
+          <description>Colorbar: Max Wave Amplitude [cm]</description>
+          <color>ffffffff</color>
+          <Icon>
+            <href>images/maxWaveColorbarC.png</href>
+          </Icon>
+          <gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+          <LatLonBox>
+            <north>-8.23434982</north>
+            <south>-8.61601649</south>
+            <east>111.40665378124847</east>
+            <west>111.45082898851402</west>
+            <rotation>0.0</rotation>
+          </LatLonBox>
+        </GroundOverlay>
+      </Folder>
+      </Folder>
+    </Folder>
+  </Document>
+</kml>
+
