@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <script src="https://cesium.com/downloads/cesiumjs/releases/1.141/Build/Cesium/Cesium.js"></script>
+
+    <link
+        href="https://cesium.com/downloads/cesiumjs/releases/1.141/Build/Cesium/Widgets/widgets.css"
+        rel="stylesheet">
+
+    <style>
+        html, body, #cesiumContainer {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+
+<div id="cesiumContainer"></div>
+
+<script type="module">
+
+    // ACCESS TOKEN
+    Cesium.Ion.defaultAccessToken =
+    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI4MjM4MTg1MS0wZjA1LTQwODUtOTNlYS1jY2FhNTY0MzZmMWYiLCJpZCI6NDMzNDcyLCJpc3MiOiJodHRwczovL2lvbi5jZXNpdW0uY29tIiwiYXVkIjoidW5kZWZpbmVkX2RlZmF1bHQiLCJpYXQiOjE3NzkxODQ3MTh9.SPRsAs1Z54JCEXX0ZyTm4_9RAWylpUeWRl4mIjQfgNM';
+
+    // VIEWER
+    const viewer = new Cesium.Viewer('cesiumContainer', {
+
+        terrain: Cesium.Terrain.fromWorldTerrain()
+
+    });
+
+    // LOAD KMZ
+    const tsunamiLayer =
+    await Cesium.KmlDataSource.load(
+        './inundate1.kmz',
+        {
+            camera: viewer.scene.camera,
+            canvas: viewer.scene.canvas
+        }
+    );
+
+    viewer.dataSources.add(tsunamiLayer);
+
+    // ZOOM KE AREA
+    viewer.zoomTo(tsunamiLayer);
+
+</script>
+
+</body>
+</html>
